@@ -1,0 +1,38 @@
+Q1)
+    ./L2/Tmp/gotMe.bash
+    ./L2/list
+Q2)
+    find . -iname "*.bash"
+Q3) 499 breadIsDangerous.txt
+Q4) -bash: breadIsDangerous: No such file or directory
+Q5) ls -l | wc -l
+Q6) grep 'bread' breadIsDangerous.txt
+Q7) grep -o 'bread' breadIsDangerous.txt | wc -l
+Q8) There is a new file called "spellExample.bak"
+Q9) <needs attention>
+1c1
+< I went to a gadren party
+---
+> I went to a garden party
+3c3
+< bnuch of my old freinds did somehting
+---
+> bunch of my old friends did something
+5a6
+> An extra line
+Q10) Saw nothing. No output
+ Didn't expect anything as there's no difference in the two files being input
+     as they are the same files.
+Q11) No I expected the numbers to be sorted 
+Q12) The numbers were sorted in a increasing order (because of the --numberic-sort)
+Q13) In the decreasing order of size
+Q14) du -sh * | sort -h -r | head -n 8
+Q15) 
+ first --> 0 (grep dough breadIsDangerous.txt will executed successfully as in it was 
+              able to find matches)
+ second --> 1 (code 1 is because of no lines matching from the input)
+ third --> 2 (code 2 is because an error occurred)
+
+Q16) File breadIsDangerous.txt has 499 words
+Q17) echo "The current working directory is: $(pwd)"
+
